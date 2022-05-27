@@ -1,0 +1,124 @@
+body { 
+    width: 100%;
+    margin: 0 auto;
+    /*background-color: grey;*/
+    } 
+    .navbar{
+        background-color: lightgreen;
+    }
+    img{
+        height: 80px;
+        padding-left: 5px;
+        margin: 0 auto;
+    }
+    li a{
+        display: inline;
+        margin-right: 20px;
+        padding-left: 10px;
+        text-align: center;
+        float: right;
+}
+
+input[type=text]{
+        width: 100%;
+        padding: 10px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        cursor: pointer;
+        float: ;
+        border-radius: 6px;
+}
+textarea{
+        width: 100%;
+        padding: 10px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        cursor: pointer;
+        float: ;
+        border-radius: 6px;
+}
+
+.btn-link {
+    color: black;
+}
+
+.btn-link:focus, .btn-link:hover {
+    text-decoration: none;
+    color: forestgreen;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    position:;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgreen;
+    align-content: center;
+    
+}
+.fa {
+    padding: 3%;
+    font-size: 20px;
+    width: 25px;
+    text-align: center;
+    margin: 5px 2px;
+    border-radius: 10%;
+}
+.fa-linkedin {
+    
+    color: black;
+}
+.fa-instagram {
+    color: black;
+    
+}
+
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    background-color: forestgreen;
+    color: white;
+    border: none;
+}

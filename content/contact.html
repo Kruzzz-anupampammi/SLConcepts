@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="../assets/stylesheet/contact-style.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome Icons pack-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Maps & Phone Icon Pack -->
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <!--FONT AWESOME PACKAGES
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">-->
+
+    <title>Contact Us</title>
+</head>
+<body>
+
+
+    <div class="wrapper">
+        
+                               <!--NAVIGATION BAR-->
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <a class="company" href="index.html"><img src="../assets/images/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse float-lg-right" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="v-login.html">Connect</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="store.html">Store</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </div><br><br>
+                                <!--CONTACT US CODE STARTS HERE-->
+
+<!--Query Submission-->
+<section class="contact-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h3 style="font-weight: bold;">
+                    Submit a Query
+                </h3><br>
+                <form>
+                    <div class="form">
+                        <input type="text" class="f-name" id="f-name" placeholder="First Name" required><br><br>
+                        <input type="text" class="l-name" id="l-name" placeholder="Last Name" required><br><br>
+                        <input type="text" class="email" id="email" placeholder="Email Address" required><br><br>
+                        <textarea class="message" id="message" placeholder="Your message here" style="height: 200px;" required></textarea><br><br>
+                    </div>
+                
+                </form>
+                
+                <a href="#"><button type="button" class="btn btn-success" style="width: 100%;"> Submit</button></a>
+            </div>
+<!--Office Locations-->
+
+            <div class="col-md-6">
+                <h3 style="font-weight: bold; text-align: center;">
+                    Office Location
+                </h3><br><br>
+                <p style="text-align: center;"> 
+                    <i class='fa fa-map' style="font-size: 24px;"></i> Newcastle Upon Tyne, UK <br>
+                    <i class='fa fa-phone' style="font-size:24px;"></i> +44 000 000 0000
+                </p>
+                <a href="https://www.google.com/maps/place/Newcastle+upon+Tyne/@55.0023519,-1.7270547,12z/data=!3m1!4b1!4m5!3m4!1s0x487d857e0c6f64cd:0xbe252b072a76191!8m2!3d54.978252!4d-1.61778"><button class="btn btn-info" style="width: 100%;"> View Map</button> </a>
+                 
+                
+                <!--<div id="googleMap" style="width: 100%;"></div>
+                <script>
+                    function myMap() {
+                        var mapProp = {
+                            center:new google.maps.LatLng (54.978252, lng: -1.617780),
+                            zoom:5,
+                        };
+                        var map = new google.maps.Map (document.getElementById("googleMap") mapProp),
+                        }
+                </script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZDLcOmjFdmSizxALKljFXpvpOjl9yyzw&callback=myMap"></script>-->
+            </div>
+        </div>
+    </div>
+</section><br><br><br>
+
+<!--FAQ Section Starts-->
+<section class="faq">
+    <div class="container">
+        <h3 style="text-align: center; font-weight: bold;">F.A.Q</h3>
+        <div class="accordian">
+            <div class="card">
+                <!--First Question-->
+                <div class="card-header" id="header1">
+                    <h2>
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1">
+                            <i class="fa fa-caret-right"></i> Question 1
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapse1" class="collapse">
+                    <div class="card-body" id="body1">
+                        Answer 1
+                    </div>
+                </div>
+                <!--Second Question-->
+                <div class="card-header" id="header2">
+                    <h2>
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse2">
+                            <i class="fa fa-caret-right"></i> Question 2
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapse2" class="collapse">
+                    <div class="card-body" id="body2">
+                        Answer 2
+                    </div>
+                </div>
+                <!--Third Question-->
+                <div class="card-header" id="header3">
+                    <h2>
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse3">
+                            <i class="fa fa-caret-right"></i> Question 3
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapse3" class="collapse">
+                    <div class="card-body" id="body3">
+                        Answer 3
+                    </div>
+                </div>
+                <!--Fourth Question-->
+                <div class="card-header" id="header4">
+                    <h2>
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse4">
+                            <i class="fa fa-caret-right"></i> Question 4
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapse4" class="collapse">
+                    <div class="card-body" id="body4">
+                        Answer 4
+                    </div>
+                </div>
+                <!--Fifth Question-->
+                <div class="card-header" id="header5">
+                    <h2>
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse5">
+                            <i class="fa fa-caret-right"></i> Question 5
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapse5" class="collapse">
+                    <div class="card-body" id="body5">
+                        Answer 5
+                    </div>
+                </div>
+                <!--Sixth Question-->
+                <div class="card-header" id="header6">
+                    <h2>
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse6">
+                            <i class="fa fa-caret-right"></i> Question 6
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapse6" class="collapse">
+                    <div class="card-body" id="body6">
+                        Answer 6
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <!--FOOTER CODE STARTS HERE-->
+<section class="footer">
+    <div class="container"><br>
+        <div class="row">
+
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <h6 style="font-weight: bold;">
+                    Address
+                </h6>
+                <p>
+                    Newcastle upon Tyne, UK
+                </p>
+            </div><br>
+
+            <div class="col-lg-2 col-md-2 col-sm-6">
+                <h6 style="font-weight: bold;">
+                    Follow Us
+                </h6>
+                <p>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </p>
+            </div><br>
+
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <h6 style="font-weight: bold;">
+                    Subscribe to our Newsletter
+                </h6>
+                
+                <input type="text" class="subscribe" id="email" placeholder="Email" required><br>
+                <input type="submit" value="Subscribe">
+            </div><br><br>
+
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <h6 style="font-weight: bold;">
+                    Copyrights & Policies
+                </h6>
+                <p>
+                    ©2021 S&L Concepts Limited
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
